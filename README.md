@@ -12,7 +12,7 @@ Features
 
 ## Composer
 
-HereMaps is PSR-0 compliant and can be installed using [composer](http://getcomposer.org/).  Simply add `geertboetzkes/heremaps` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
+HereMaps is PSR-0 compliant and can be installed using [composer](http://getcomposer.org/).  Simply add `geertboetzkes/here-maps` to your composer.json file.  _Composer is the sane alternative to PEAR.  It is excellent for managing dependencies in larger projects_.
 
     {
         "require": {
