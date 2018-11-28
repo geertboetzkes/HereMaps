@@ -1,4 +1,4 @@
-# Httpful
+# Geert Boetzkes / Here Maps
 
 Heremaps is a simple Heremaps Rest wrapper for PHP 5.6+. 
 
