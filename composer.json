@@ -1,8 +1,8 @@
 {
-  "name": "Hitmetal/HereMaps",
+  "name": "hitmetal/here-maps",
   "autoload": {
     "psr-4": {
-      "Hitmetal\\HereMaps\\": "src/"
+      "hitmetal\\here-maps\\": "src/"
     }
   },
   "require": {
