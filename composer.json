@@ -2,7 +2,7 @@
   "name": "geertboetzkes/here-maps",
   "autoload": {
     "psr-4": {
-      "geertboetzkes\\here-maps\\": "src/"
+      "geertboetzkes\\heremaps\\": "src/"
     }
   },
   "require": {

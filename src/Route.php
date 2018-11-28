@@ -6,7 +6,7 @@
  * Time: 11:00
  */
 
-namespace GeertBoetzkes\HereMaps;
+namespace geertboetzkes\heremaps;
 
 
 use Httpful\Request;

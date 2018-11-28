@@ -26,3 +26,52 @@ HereMaps is PSR-0 compliant and can be installed using [composer](http://getcomp
 composer require geertboetzkes/here-maps
 
 ```
+
+
+
+# Example
+Here are a few examples how this libary could be used.
+for convenience I have build the package so that all the command are chain-able.
+
+##GeoCoding
+
+```php
+
+$route = new Route(API_KEY, API_SECRET);
+
+$waypoints["a"] = new RouteWaypoint(51.97109267, 5.26213026);
+$waypoints["b"] = new RouteWaypoint(52.11244458, 5.36696158);
+
+$result = $route
+    ->AddWaypoint($waypoints['a'])
+    ->AddWaypoint($waypoints["b"])
+    ->vehicle(RouteVehicles::Truck)
+    ->trafficInfo(true)
+    ->mode(RouteTypes::Fastest)
+    ->get();
+
+
+print_R($result);
+```
+
+##Routes
+
+```php
+
+$route = new Route(API_KEY, API_SECRET);
+
+$waypoints["a"] = new RouteWaypoint(51.97109267, 5.26213026);
+$waypoints["b"] = new RouteWaypoint(52.11244458, 5.36696158);
+
+$result = $route
+    ->AddWaypoint($waypoints['a'])
+    ->AddWaypoint($waypoints["b"])
+    ->vehicle(RouteVehicles::Truck)
+    ->trafficInfo(true)
+    ->mode(RouteTypes::Fastest)
+    ->get();
+
+
+print_R($result);`
+
+``
