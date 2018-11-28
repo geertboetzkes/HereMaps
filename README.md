@@ -16,7 +16,7 @@ Httpful is PSR-0 compliant and can be installed using [composer](http://getcompo
 
     {
         "require": {
-            "nategood/httpful": "*"
+            "geertboetzkes/here-maps": "*"
         }
     }
 
