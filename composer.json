@@ -1,0 +1,12 @@
+{
+  "name": "Hitmetal/HereMaps",
+  "autoload": {
+    "psr-4": {
+      "Hitmetal\\HereMaps\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "nategood/httpful": "^0.2.20"
+  }
+}
