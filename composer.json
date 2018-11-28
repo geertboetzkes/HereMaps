@@ -1,8 +1,8 @@
 {
-  "name": "hitmetal/here-maps",
+  "name": "geertboetzkes/here-maps",
   "autoload": {
     "psr-4": {
-      "hitmetal\\here-maps\\": "src/"
+      "geertboetzkes\\here-maps\\": "src/"
     }
   },
   "require": {
