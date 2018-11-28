@@ -1,6 +1,6 @@
 <?php
 
-namespace geertboetzkes\heremaps;
+namespace GeertBoetzkes\HereMaps;
 
 use Httpful\Request;
 
