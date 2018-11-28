@@ -1,6 +1,6 @@
 <?php
 
-namespace Hitmetal\HereMaps;
+namespace GeertBoetzkes\HereMaps;
 
 use Httpful\Request;
 

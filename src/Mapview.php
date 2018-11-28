@@ -6,8 +6,7 @@
  * Time: 09:46
  */
 
-namespace Hitmetal\HereMaps;
-
+namespace GeertBoetzkes\HereMaps;
 
 use http\Env\Request;
 
@@ -245,7 +244,7 @@ class Mapview
             $queryList["poi"] = implode(",", $this->poi);
         }
 
-        $request = \Httpful\Request::get(self::BASE."?".http_build_query($queryList))->send();
+        $request = Request::get(self::BASE."?".http_build_query($queryList))->send();
 
 
         return $request->body;
