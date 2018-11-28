@@ -1,5 +1,5 @@
 {
-  "name": "geertboetzkes/here-maps",
+  "name": "geertboetzkes/heremaps",
   "autoload": {
     "psr-4": {
       "geertboetzkes\\heremaps\\": "src/"
