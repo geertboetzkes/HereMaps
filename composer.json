@@ -1,8 +1,8 @@
 {
-  "name": "GeertBoetzkes/HereMaps",
+  "name": "geertboetzkes/heremaps",
   "autoload": {
     "psr-4": {
-      "Geertboetzkes\\Heremaps\\": "src/"
+      "geertboetzkes\\heremaps\\": "src/"
     }
   },
   "require": {
