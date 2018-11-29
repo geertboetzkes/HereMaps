@@ -6,7 +6,7 @@
  * Time: 09:46
  */
 
-namespace geertboetzkes\heremaps;
+namespace geertBoetzkes\heremaps;
 
 use http\Env\Request;
 
