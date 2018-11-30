@@ -35,7 +35,7 @@ composer require geertboetzkes/heremaps
 Here are a few examples how this libary could be used.
 for convenience I have build the package so that all the command are chain-able.
 
-##GeoCoding
+## GeoCoding
 
 ```php
 <?php
@@ -46,7 +46,7 @@ $results = $geoCoder->locate("addressstring 1a city")->search();
 print_R($results);
 ```
 
-##Routes
+## Routes
 
 ```php
 <?php
@@ -68,7 +68,7 @@ print_R($result);`
 
 ```
 
-##Mapview
+## Mapview
 To get a imagestring of the map you could use the mapview option. 
 the map has several options for displaying. It can also display the
 poi on the map.
